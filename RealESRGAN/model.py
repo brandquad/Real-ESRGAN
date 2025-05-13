@@ -3,7 +3,6 @@ import torch
 from torch.nn import functional as F
 from PIL import Image
 import numpy as np
-import cv2
 from huggingface_hub import hf_hub_url, cached_download
 
 from .rrdbnet_arch import RRDBNet
